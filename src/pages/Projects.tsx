@@ -13,7 +13,7 @@ export default function Projects() {
     {
       title: "Proofmint",
       description:
-        "Web3 proof-of-ownership dApp demonstrating NFT minting and verification with Next.js, Solidity, and Tailwind.",
+        "Web3 proof-of-ownership dApp demonstrating NFT minting and verification with Next.js, Solidity, and Tailwind. Demo walkthrough video in progress.",
       site: "https://cryptomachinegene.github.io/proofmint-project/",
       demo: "/under-construction",
       code: "https://github.com/CryptoMachineGene/proofmint-project",
