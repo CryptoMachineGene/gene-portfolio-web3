@@ -25,10 +25,10 @@ const router = createHashRouter([
     children: [
       { index: true, element: <Resume /> },
       { path: "projects", element: <Projects /> },
-      { path: "demo", element: <UnderConstruction /> }, // 👈 Now directly loads UnderConstruction
+      { path: "demo", element: <ProofmintDemo videoId="CatHeV8tclI" externalLabel="Watch on YouTube" /> },
       { path: "blog", element: <Blog /> },
       { path: "proofmint", element: <Proofmint /> },
-      { path: "proofmint-demo", element: <ProofmintDemo /> },
+     // { path: "proofmint-demo", element: <ProofmintDemo /> },
       { path: "sakura", element: <Sakura /> },
       { path: "solana", element: <SolanaHello /> },
       { path: "under-construction", element: <UnderConstruction /> },

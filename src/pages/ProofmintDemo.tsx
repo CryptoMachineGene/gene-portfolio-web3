@@ -8,7 +8,7 @@ type Props = {
 };
 
 export default function ProofmintDemo({
-  videoId = "YOUR_VIDEO_ID_HERE",
+  videoId = "CatHeV8tclI",
   externalLabel = "Watch on YouTube",
 }: Props) {
   const isFullUrl = videoId.includes("http");
