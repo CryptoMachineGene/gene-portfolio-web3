@@ -11,6 +11,7 @@ import Projects from "./pages/Projects";
 import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
 import UnderConstruction from "./pages/UnderConstruction";
+import Home from "./pages/Home";
 
 // project-specific pages
 import Proofmint from "./pages/Proofmint";
@@ -23,12 +24,12 @@ const router = createHashRouter([
     path: "/",
     element: <App />,
     children: [
-      { index: true, element: <Resume /> },
+      { index: true, element: <Home /> },
+      { path: "resume", element: <Resume /> },
       { path: "projects", element: <Projects /> },
       { path: "demo", element: <ProofmintDemo videoId="CatHeV8tclI" externalLabel="Watch on YouTube" /> },
       { path: "blog", element: <Blog /> },
       { path: "proofmint", element: <Proofmint /> },
-     // { path: "proofmint-demo", element: <ProofmintDemo /> },
       { path: "sakura", element: <Sakura /> },
       { path: "solana", element: <SolanaHello /> },
       { path: "under-construction", element: <UnderConstruction /> },

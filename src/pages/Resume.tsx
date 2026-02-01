@@ -210,7 +210,7 @@ export default function Resume() {
                 } mt-auto pt-3 pb-4 flex flex-wrap justify-center gap-2 sm:gap-3`}
               >
                 <Link
-                  to="/under-construction"
+                  to="/demo"
                   aria-label="Demo coming soon"
                   className="min-w-[120px] h-10 shrink-0 inline-flex items-center justify-center rounded-2xl 
                              border border-yellow-400/60 text-yellow-200 bg-transparent text-sm font-medium transition-colors duration-500 ease-out hover:bg-yellow-400 hover:text-black"
